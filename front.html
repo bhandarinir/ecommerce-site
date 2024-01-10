@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Montserrat:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Montserrat:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400&family=Roboto+Slab:wght@700&family=Tilt+Prism&display=swap');
+
+
+       /* for front page */
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+ 
+}
+
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.header-bar a{
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+.logo {
+    font-size: 2rem;
+    -webkit-text-stroke:2px white;
+    color: transparent;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+}
+
+.navigation li {
+    margin-right: 1rem;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+/*slider */
+
+
+.slider {
+    width:90%;
+    max-width: 500px;
+    overflow: hidden;
+    position: relative;
+   
+}
+
+.slide {
+    display: flex;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.01);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.slide img {
+    width: 60%;
+    height: auto;
+    margin-top: 16%;
+    filter: drop-shadow(2px 2px 10px black );
+}
+.name{
+    font-size: 30px;
+    color: peru;
+
+}
+p{
+    font-size: 20px;
+    color: red;
+}
+h1{
+    font-size: 35px;
+    color: peru;
+    font-family: sans-serif;
+    margin-left: 16px;
+
+
+
+}
+.grd{
+     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15px, auto));
+  
+}
+.hdr{
+     margin-top: 10%;
+     font-size: 40px;
+     font-weight: 900;
+     text-transform: uppercase;
+
+}
+h5{
+    font-size: 22px;
+    color: black;
+}
+.about{ 
+    margin-right: 2%;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 2px 2px red;
+}
+
+.footer{
+    margin-left: 80%;
+}
+
+
+     #about-section {
+            padding: 80px 0;
+            text-align: center;
+
+        }
+        #about-section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        #about-section p {
+            font-size: 20px;
+            line-height: 2;
+            overflow-wrap: break-word;
+        
+        }
+        #about-section img {
+            max-width: 100%;
+            height: auto;
+        }
+.logo{
+    width: 20%;
+    height: 30%;
+    border-radius: 50%;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-left: 0%;
+}
+.fa{
+    padding: 4px;
+}
+
+
+   </style>
+</head>
+<body>
+    <div>
+    <header class="header">
+        <div class="header-bar">
+            <h1 class="logo">MyStore</h1>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="#about-section">About Us</a></li>
+                    
+                   
+                </ul>
+            </nav>
+        </div>
+    </header>
+</div>
+<br>
+<div id="home"> 
+<div class="grd">
+
+<h1>FOR YOU:</h1>
+<br> <br>
+
+    <div class="slider">
+        <div class="slide">
+            <img src="iphone14pro.jpg" alt="Image 1">
+            <h2 class="name"> Iphone 14 pro max</h2>
+            <span> <p> For you -> 50% Offer sale. </p> </span>
+        </div>
+        <div class="slide">
+            <img src="iphone11.jpg" alt="Image 2">
+              <h2 class="name"> Iphone 11 pro max</h2>
+            <span> <p> For you -> 50% Offer sale. </p> </span>
+        </div>
+        <div class="slide">
+            <img src="cannon.jpg" alt="Image 3">
+              <h2 class="name"> Cannon camera</h2>
+            <span> <p> For you -> 50% Offer sale. </p> </span>
+        </div>
+   
+    <div class="slide">
+                <img src="s23.jpg" class="product-img">
+                <h2 class="name">Samsung s23 ultra </h2>
+                <span> <p> For you -> 50% offer sale </p> </span>
+                    
+            </div>
+ </div>
+ <div class="about"> <h1 class="hdr"> "Welcome to N.K.S Store: Your Ultimate Shopping Destination!" </h1>
+
+<h5>  At N.K.S Store, we're not just an online shop; we're your go-to destination for all things stylish, convenient, and exciting! Step into a world of curated collections, where every product tells a unique story.
+
+Discover the latest trends and timeless classics, all carefully selected to cater to your preferences. From fashion to electronics, home essentials to gifts for your loved ones, we have it all under one virtual roof. </h5> </div>
+
+
+
+
+</div>
+</div>
+
+
+    <script type="text/javascript">
+        const slides = document.querySelectorAll('.slide');
+let currentSlide = 0;
+
+function showSlide(index) {
+    slides.forEach(slide => {
+        slide.style.display = 'none';
+    });
+    slides[index].style.display = 'block';
+}
+
+function nextSlide() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+}
+
+function previousSlide() {
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(currentSlide);
+}
+
+showSlide(currentSlide);
+
+setInterval(nextSlide, 2000); // Automatically advance the slider every 3 seconds
+</script>
+
+
+
+    <div id="about-section">
+        <h2>About Us</h2>
+        <img src="logo.jpg" alt="NKS Store Logo" class="logo">
+        <p>Welcome to NKS Store, your one-stop online shop for all your needs. We are committed to providing high-quality products and exceptional customer service. With a wide range of products across various categories, we aim to make your online shopping experience convenient and enjoyable.</p>
+        <p>At NKS Store, we believe in quality, affordability, and reliability. Our team works tirelessly to curate a selection of products that meet your diverse requirements. Whether you're looking for the latest fashion trends, electronics, home essentials, or unique gifts, we've got you covered.</p>
+        <p>Thank you for choosing NKS Store as your preferred online shopping destination. We look forward to serving you and making your shopping journey unforgettable. At NKS, we are more than just an online store – we are your gateway to the world of cutting-edge technology. Our passion for innovation drives us to bring you the latest and most sought-after devices that redefine your digital lifestyle. As technology enthusiasts ourselves, we understand the profound impact that well-crafted gadgets can have on your daily life.</p>
+
+
+<h2> Our Vision <h2/>
+
+<p> Our vision is to provide a seamless and inspiring shopping experience for tech enthusiasts and casual users alike. We believe in the power of connectivity, the thrill of capturing moments, and the potential of technology to transform the way we live, work, and play. </p>
+ </div>
+
+<footer class="footer">
+                <p>
+                    
+                    <i class="fa fa-map-marker"></i>
+                    Rolpa district Nepal,.
+                </p>
+                <p>
+                    <a href="mailto:bhandarinirmal692@gmail.com">
+                        <i class="fa fa-envelope"></i>
+                        bhandarinirmal692@gmail.com
+                    </a>
+                </p>
+                <p>
+                    <i class="fa fa-phone-square"></i>
+                    <a href="tel:9868150523">
+                    9868150523
+                    </a>
+                </p>
+
+                
+                    
+                    <a href="https://www.facebook.com/nrs.king.33">
+                        <i class="fa fa-facebook-official fa-2x"></i>
+                    </a>
+                    <a href="https://youtube.com/@bhandaritechnical5434">
+                        <i class="fa fa-youtube-square fa-2x"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa fa-instagram fa-2x"></i>
+               </a>
+
+        </footer>
+
+</body>
+</html>
+
+
+
+        
+
+
+
+
